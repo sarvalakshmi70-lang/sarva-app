@@ -1,20 +1,19 @@
+
 import './App.css'
-import Navbar from './Navbar'
-import Course from './Course'
-import Footer from './Footer'
+import Top from './Components/Top';
+import Middle from './Components/Middle';
+import Bottom from './Components/Bottom';
 
-function App(){
-    return(
-        <>
-        <Navbar />
-        <Course />
-        <Footer />
-        </>
+function App() {
+  
+  return (
+    <div className="App">
+      <Top />
+      <Middle />
+      <Bottom />
+    </div>
 
-    );
-}
-
-export default App;
-
-
+  );
+  }
+export default App
 

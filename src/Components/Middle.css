@@ -1,0 +1,19 @@
+#middle {
+  width: 100vw;
+  text-align: center;
+  padding: 20px;
+}
+
+#middle img {
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+#middle h2 {
+  margin-top: 10px;
+}
+
+#middle h3 {
+  color: crimson;
+}
