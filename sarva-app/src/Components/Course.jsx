@@ -1,7 +1,7 @@
 const Course1 ="HTML"
 function Course(){
     return(
-        <div class="card">
+        <div className="card">
         <img src="" alt="" />
         <h3>{Course}</h3>
         <p>This is Code World HTML Course</p>
