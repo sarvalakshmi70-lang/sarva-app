@@ -1,19 +1,30 @@
+import './App.css';
+import Header from './Components/Header';
+import GrandWelcome from './Components/GrandWelcome';
+import ExploreCakes from './Components/ExploreCakes';
+import CakeCard from './Components/CakeCard';
+import Reviews from './Components/Reviews';
+import Contact from './Components/Contact';
+import Footer from './Components/Footer';
+import CakeList from './Components/CakeList';
+import SpecialOffer from './Components/SpecialOffer';
 
-import './App.css'
-import Top from './Components/Top';
-import Middle from './Components/Middle';
-import Bottom from './Components/Bottom';
+
 
 function App() {
   
   return (
-    <div className="App">
-      <Top />
-      <Middle />
-      <Bottom />
-    </div>
-
+    <>
+    <Header/>
+    <GrandWelcome/>
+    <ExploreCakes/>
+    <CakeList/>
+    <SpecialOffer/>
+    <Reviews/>
+    <Contact/>
+    <Footer/>
+    </>
   );
   }
-export default App
+export default App;
 
