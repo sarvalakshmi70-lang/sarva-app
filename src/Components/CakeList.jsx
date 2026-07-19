@@ -1,10 +1,10 @@
 import React from 'react';
 import CakeCard from './CakeCard';
-import chocolate from "../assets/chocolate.jpg";
-import strawberry from "../assets/strawberry.jpg";
-import blackforest from "../assets/blackforest.jpg";
-import brownie from "../assets/brownie.jpg";
-
+import logo from "../assets/logo.png";
+import chocolate from "../assets/chocolate.png";
+import strawberry from "../assets/strawberry.png";
+import blackforest from "../assets/blackforest.png";
+import brownie from "../assets/brownie.png";
 function CakeList() {
   return (
     <section>
