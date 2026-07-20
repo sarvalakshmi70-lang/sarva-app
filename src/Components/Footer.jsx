@@ -1,8 +1,11 @@
 import React from 'react'
 
 function Footer() {
+  function visit(){
+    AudioListener("Visit Again");
+  }
   return (
-    <footer>
+    <footer onClick={visit}>
         <p>@2026 DreamBasket</p>
     </footer>
   );
